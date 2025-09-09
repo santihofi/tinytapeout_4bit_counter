@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-A 16 bit counter is implemented, but only the last 4 bits are used as outputs. This way, the clock frequency of 10 kHz is reduced to a counting frequency of around 2,5 Hz. When reset is pressed, the value of the counter is set to 0. When an overflow occurs, the counter starts again at 0.
+A 16 bit counter is implemented, but only the last 8 bits are used as outputs. This way, the clock frequency of 10 kHz is reduced to a counting frequency of around 2,5 Hz. When reset is pressed, the value of the counter is set to 0. When an overflow occurs, the counter starts again at 0.
 
 ## How to test
 
-Power on the circuit and watch the counter increase. The LED's connected to OUT0 - OUT3 show a binary representation of the counter value.
+Power on the circuit and watch the counter increase. The LED's connected to OUT0 - OUT7 show a binary representation of the counter value.
 
 ## External hardware
 
-4 LED's are used at the pins OUT0 - OUT3 to show the current value of the counter.
+8 LED's are used at the pins OUT0 - OUT7 to show the current value of the counter.
